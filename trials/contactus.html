@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="william kofi osiakwan">
+    <link rel="stylesheet" href="styles/contactus.css">
+    <style>
+      form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+}
+
+    </style>
+    <title>Contact Us</title>
+</head>
+<body>
+      <header>
+        <a href="index.html" id="logo_link">
+            <img class="logo" src="images/logo.png" alt="dry oar logo">
+        </a>
+        <nav>
+            <a href="index.html">Home page</a>
+            <a href="rivers.html">Information about the rivers we raft through</a>
+            <a href="site-plan-rafting.html">Site Plan</a>
+        </nav>
+      </header>
+      <main>
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Send your message</button>
+            </li>
+            
+          </ul>
+
+        </form>
+      </main>
+      <footer>
+        
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/211901_facebook_social_icon.svg" alt="fb icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/5335781_camera_instagram_social_media_instagram_logo_icon.svg" alt="twitter icon">
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <img src="images/5340279_play_video_youtube_youtuber_icon.svg" alt="instagram icon">
+            </a>
+        </div>
+      </footer>
+</body>
+</html>
