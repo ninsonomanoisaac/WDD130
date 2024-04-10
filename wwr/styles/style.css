@@ -61,14 +61,13 @@ body{
 }
 
 .home {
-
-    background-position: center;
+    height: 100vh;
+    background-image: url("../images/background.jpg.jpg");
+    background-size: cover;
     display: flex;
     align-items: center;
-    display:grid;
-    grid-template-columns: 2fr 1fr;
     padding: 0 10%;
-    color: #000000;
+    color: #ffffff;
 }
 
 .home-content {
@@ -76,14 +75,14 @@ body{
 
 }
 .home-content h1 {
-    font-size: 100px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 200;
     line-height: 1.2;
 }
 .home-content h3 {
-    font-size: 32px;
+    font-size: 52px;
     font-weight: 700;
-    color: darkorange;
+    color: rgb(253, 253, 253);
 }
 
 .home-content p {
