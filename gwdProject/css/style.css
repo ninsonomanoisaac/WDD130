@@ -96,7 +96,7 @@ a.active,a:hover{
 }
 
 section{
-    background: url(/gwdProject/images/backdrop_2.jpg) no-repeat;
+    background: url(/gwdProjec/images/backdrop_2.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
